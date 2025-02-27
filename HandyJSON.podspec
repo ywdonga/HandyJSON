@@ -14,8 +14,6 @@ Pod::Spec.new do |s|
     s.description = 'A Handy Json Library for Swift which serials object to json and deserials json to object'
 
     s.ios.deployment_target = '8.0'
-    s.osx.deployment_target = '10.10'
-    s.watchos.deployment_target = '2.0'
 
     s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
 end
